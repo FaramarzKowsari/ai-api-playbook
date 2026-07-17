@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-ai-api-playbook"
+version = "1.0.0"
+description = "Offline-testable patterns and product blueprints for modern AI APIs"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Faramarz Kowsari"}]
+keywords = ["ai-api", "agents", "rag", "multimodal", "voice-ai", "generative-ai"]
+dependencies = [
+  "httpx>=0.27,<1",
+  "pydantic>=2.7,<3",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+providers = [
+  "openai>=1.68",
+  "anthropic>=0.49",
+  "google-genai>=1.11",
+  "mistralai>=1.5",
+  "cohere>=5.14",
+  "pinecone>=6.0",
+  "elevenlabs>=1.54",
+  "deepgram-sdk>=3.10",
+  "replicate>=1.0",
+  "huggingface-hub>=0.30",
+]
+dev = ["ruff>=0.11", "mypy>=1.15", "pytest>=8.3", "pytest-cov>=6.0"]
+
+[project.scripts]
+ai-api-playbook = "ai_api_playbook.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["ai_api_playbook"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --disable-warnings --maxfail=1"

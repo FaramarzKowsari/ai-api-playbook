@@ -1,0 +1,8 @@
+services:
+  playbook:
+    build: .
+    env_file:
+      - .env
+    environment:
+      AIAP_MODE: ${AIAP_MODE:-mock}
+    command: ["python", "-m", "ai_api_playbook.cli", "demo"]

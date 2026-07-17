@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its examples, please cite it as below."
+title: "AI APIs in Practice: Visual AI API Playbook"
+type: software
+version: 1.0.0
+date-released: 2026-07-17
+authors:
+  - family-names: Kowsari
+    given-names: Faramarz
+    orcid: "https://orcid.org/0000-0003-1692-0453"
+repository-code: "https://github.com/FaramarzKowsari/visual-ai-api-playbook"
+url: "https://github.com/FaramarzKowsari/visual-ai-api-playbook"
+license: MIT
+keywords:
+  - artificial intelligence APIs
+  - multimodal AI
+  - agents
+  - retrieval augmented generation
+  - voice AI

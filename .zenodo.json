@@ -1,0 +1,28 @@
+{
+  "title": "AI API Playbook: Production Patterns, Provider Examples, and Commercial Blueprints",
+  "description": "A reproducible, provider-aware reference implementation for building, evaluating, securing, and commercializing AI API applications. Includes tested Python abstractions, runnable examples, project blueprints, a Colab notebook, and a 100-page infographic book production map.",
+  "creators": [
+    {
+      "name": "Kowsari, Faramarz"
+    }
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "keywords": [
+    "artificial intelligence",
+    "AI API",
+    "large language models",
+    "retrieval augmented generation",
+    "multimodal AI",
+    "responsible AI",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/OWNER/REPOSITORY",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Replace OWNER/REPOSITORY after publishing to GitHub. Add the author's ORCID in Zenodo before the first release if available."
+}
