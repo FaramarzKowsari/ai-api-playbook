@@ -69,7 +69,7 @@ Read `SECURITY.md` before enabling live mode.
 
 ## Citation
 
-Use the metadata in `CITATION.cff` and `.zenodo.json`. Replace `OWNER/REPOSITORY` before publishing. After a GitHub release is archived by Zenodo, replace the placeholder DOI in the badge and citation files with the reserved DOI.
+Use the metadata in `CITATION.cff` and `.zenodo.json`. The repository URL and the author's ORCID are already configured. After a GitHub release is archived by Zenodo, add the DOI badge and DOI identifier to this README and `CITATION.cff`.
 
 ## Author
 
