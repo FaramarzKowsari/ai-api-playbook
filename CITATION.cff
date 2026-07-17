@@ -8,8 +8,8 @@ authors:
   - family-names: Kowsari
     given-names: Faramarz
     orcid: "https://orcid.org/0000-0003-1692-0453"
-repository-code: "https://github.com/FaramarzKowsari/visual-ai-api-playbook"
-url: "https://github.com/FaramarzKowsari/visual-ai-api-playbook"
+repository-code: "https://github.com/FaramarzKowsari/ai-api-playbook"
+url: "https://github.com/FaramarzKowsari/ai-api-playbook"
 license: MIT
 keywords:
   - artificial intelligence APIs
