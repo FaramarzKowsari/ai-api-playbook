@@ -3,6 +3,9 @@ message: "If you use this software or its examples, please cite it as below."
 title: "AI APIs in Practice: Visual AI API Playbook"
 type: software
 version: 1.0.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21419466
 date-released: 2026-07-17
 authors:
   - family-names: Kowsari
