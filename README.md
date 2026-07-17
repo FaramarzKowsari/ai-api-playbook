@@ -74,7 +74,13 @@ Read `SECURITY.md` before enabling live mode.
 
 ## Citation
 
-Use the metadata in `CITATION.cff` and `.zenodo.json`. The repository URL and the author's ORCID are already configured. After this repository is archived by Zenodo, the official DOI badge and DOI identifier will be added to this README and `CITATION.cff`.
+This software release is permanently archived by Zenodo.
+
+- DOI: https://doi.org/10.5281/zenodo.21419466
+- Version: 1.0.0
+- Release date: 2026-07-17
+
+Machine-readable citation metadata is available in `CITATION.cff` and `.zenodo.json`.
 
 ## Author
 
