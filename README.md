@@ -1,4 +1,9 @@
 # AI APIs in Practice
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21419466.svg)](https://doi.org/10.5281/zenodo.21419466)
+[![CI](https://github.com/FaramarzKowsari/ai-api-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/FaramarzKowsari/ai-api-playbook/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
+
 
 **A Visual Guide to Multimodal, Agentic, and Revenue-Ready Applications**
 
