@@ -69,16 +69,20 @@ Read `SECURITY.md` before enabling live mode.
 
 ## Citation
 
-Use the metadata in `CITATION.cff` and `.zenodo.json`. The repository URL and the author's ORCID are already configured. After a GitHub release is archived by Zenodo, add the DOI badge and DOI identifier to this README and `CITATION.cff`.
+Use the metadata in `CITATION.cff` and `.zenodo.json`. The repository URL and the author's ORCID are already configured. After this repository is archived by Zenodo, the official DOI badge and DOI identifier will be added to this README and `CITATION.cff`.
 
 ## Author
 
-Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. His work focuses on artificial intelligence, data engineering, visual education, digital publishing, and practical systems that connect knowledge to measurable outcomes.
+Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.
 
+### Official Profiles & Repositories
+
+- Wikidata: https://www.wikidata.org/wiki/Q140389378
 - ORCID: https://orcid.org/0000-0003-1692-0453
+- Google Scholar: https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en
 - GitHub: https://github.com/FaramarzKowsari
 - LinkedIn: https://www.linkedin.com/in/faramarzkowsari
-- Wikidata: https://www.wikidata.org/wiki/Q140389378
+- Google Books: https://play.google.com/store/search?q=Faramarz_Kowsari&c=books
 
 ## License
 
