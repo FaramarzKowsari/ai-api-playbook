@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>
+    AI APIs in Practice | Visual AI API Playbook by Faramarz Kowsari
+  </title>
+
+  <meta name="description"
+        content="AI APIs in Practice is an open-source visual and executable playbook for multimodal AI, agents, RAG, structured outputs, evaluation, safety, observability, and production-ready AI applications.">
+
+  <meta name="author" content="Faramarz Kowsari">
+
+  <meta name="robots"
+        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+  <meta name="keywords"
+        content="AI API, artificial intelligence API, AI agents, multimodal AI, RAG, structured outputs, prompt engineering, AI safety, LLM API, OpenAI API, Gemini API, Claude API, AI engineering, Faramarz Kowsari">
+
+  <link rel="canonical"
+        href="https://faramarzkowsari.github.io/ai-api-playbook/">
+
+  <link rel="icon"
+        type="image/svg+xml"
+        href="./favicon.svg">
+
+  <link rel="manifest"
+        href="./site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+
+  <meta property="og:title"
+        content="AI APIs in Practice — Visual AI API Playbook">
+
+  <meta property="og:description"
+        content="An open-source, executable guide to multimodal AI APIs, agents, RAG, evaluation, safety, observability, and production engineering.">
+
+  <meta property="og:url"
+        content="https://faramarzkowsari.github.io/ai-api-playbook/">
+
+  <meta property="og:site_name"
+        content="AI APIs in Practice">
+
+  <meta property="og:image"
+        content="https://raw.githubusercontent.com/FaramarzKowsari/ai-api-playbook/main/social-preview.jpg">
+
+  <meta property="og:image:alt"
+        content="AI APIs in Practice by Faramarz Kowsari">
+
+  <!-- X / Twitter -->
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="AI APIs in Practice — Visual AI API Playbook">
+
+  <meta name="twitter:description"
+        content="A practical open-source guide to modern AI APIs, multimodal systems, agents, RAG, evaluation, and production engineering.">
+
+  <meta name="twitter:image"
+        content="https://raw.githubusercontent.com/FaramarzKowsari/ai-api-playbook/main/social-preview.jpg">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "AI APIs in Practice",
+    "alternateName": "Visual AI API Playbook",
+    "description": "An open-source visual and executable playbook for multimodal AI APIs, agents, RAG, structured outputs, evaluation, safety, observability, and production-ready AI applications.",
+    "url": "https://faramarzkowsari.github.io/ai-api-playbook/",
+    "codeRepository": "https://github.com/FaramarzKowsari/ai-api-playbook",
+    "programmingLanguage": [
+      "Python",
+      "TypeScript"
+    ],
+    "runtimePlatform": "Python 3.11+",
+    "license": "https://opensource.org/licenses/MIT",
+    "version": "1.0.0",
+    "datePublished": "2026-07-17",
+    "identifier": "https://doi.org/10.5281/zenodo.21419466",
+    "author": {
+      "@type": "Person",
+      "name": "Faramarz Kowsari",
+      "url": "https://github.com/FaramarzKowsari",
+      "sameAs": [
+        "https://orcid.org/0000-0003-1692-0453",
+        "https://www.wikidata.org/wiki/Q140389378",
+        "https://github.com/FaramarzKowsari",
+        "https://www.linkedin.com/in/faramarzkowsari"
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #07111f;
+      --surface: #101d31;
+      --text: #f4f7fb;
+      --muted: #aebbd0;
+      --accent: #66d9ef;
+      --accent-2: #a78bfa;
+      --border: rgba(255, 255, 255, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, #172554, transparent 35%),
+        var(--background);
+    }
+
+    main {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+
+    header {
+      max-width: 850px;
+      margin-bottom: 52px;
+    }
+
+    h1 {
+      margin-bottom: 16px;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      line-height: 1.05;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      color: #07111f;
+      font-weight: 700;
+      text-decoration: none;
+      background: var(--accent);
+      border-radius: 10px;
+    }
+
+    .button.secondary {
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    article {
+      padding: 24px;
+      background: rgba(16, 29, 49, 0.85);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <p>Open-source research software</p>
+
+      <h1>AI APIs in Practice</h1>
+
+      <p class="subtitle">
+        A visual and executable AI API playbook for multimodal,
+        agentic, production-ready, and commercially realistic
+        applications.
+      </p>
+
+      <p>
+        Created by Faramarz Kowsari, this project translates modern
+        artificial-intelligence APIs into reproducible engineering
+        patterns, offline-testable examples, safety utilities,
+        evaluation workflows, and practical product blueprints.
+      </p>
+
+      <nav class="buttons" aria-label="Primary links">
+        <a class="button"
+           href="https://github.com/FaramarzKowsari/ai-api-playbook">
+          View GitHub Repository
+        </a>
+
+        <a class="button secondary"
+           href="https://colab.research.google.com/github/FaramarzKowsari/ai-api-playbook/blob/main/notebooks/00_quickstart_colab.ipynb">
+          Run in Google Colab
+        </a>
+
+        <a class="button secondary"
+           href="https://doi.org/10.5281/zenodo.21419466">
+          Cite with DOI
+        </a>
+      </nav>
+    </header>
+
+    <section aria-labelledby="capabilities">
+      <h2 id="capabilities">Core capabilities</h2>
+
+      <div class="grid">
+        <article>
+          <h3>Language and reasoning</h3>
+          <p>
+            Prompting, structured outputs, schema validation,
+            reasoning workflows, and code generation.
+          </p>
+        </article>
+
+        <article>
+          <h3>Agents and tools</h3>
+          <p>
+            Function calling, tool use, agent orchestration,
+            computer interaction, and MCP patterns.
+          </p>
+        </article>
+
+        <article>
+          <h3>RAG and knowledge</h3>
+          <p>
+            Embeddings, chunking, retrieval, reranking,
+            vector stores, and RAG evaluation.
+          </p>
+        </article>
+
+        <article>
+          <h3>Multimodal AI</h3>
+          <p>
+            Vision, OCR, image generation, speech,
+            realtime voice, and video systems.
+          </p>
+        </article>
+
+        <article>
+          <h3>Production engineering</h3>
+          <p>
+            Security, privacy, retries, observability,
+            caching, routing, and cost controls.
+          </p>
+        </article>
+
+        <article>
+          <h3>Commercial blueprints</h3>
+          <p>
+            Product concepts based on measurable outcomes,
+            unit economics, safeguards, and human review.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © 2026 Faramarz Kowsari · MIT License ·
+        DOI: 10.5281/zenodo.21419466
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
