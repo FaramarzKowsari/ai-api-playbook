@@ -1,0 +1,22 @@
+{
+  "name": "AI APIs in Practice",
+  "short_name": "AI API Playbook",
+  "description": "A visual and executable playbook for multimodal AI APIs, agents, RAG, evaluation, safety, observability, and production engineering.",
+  "id": "/ai-api-playbook/",
+  "start_url": "/ai-api-playbook/",
+  "scope": "/ai-api-playbook/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

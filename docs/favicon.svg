@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">AI APIs in Practice</title>
+  <desc id="desc">AI monogram favicon for the AI APIs in Practice project</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="64" y1="64" x2="448" y2="448"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66d9ef"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="mark" x1="150" y1="130" x2="360" y2="390"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dce8ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512"
+        height="512"
+        rx="112"
+        fill="#07111f"/>
+
+  <rect x="32"
+        y="32"
+        width="448"
+        height="448"
+        rx="92"
+        fill="none"
+        stroke="url(#bg)"
+        stroke-width="18"/>
+
+  <path d="M137 365 226 145h59l90 220h-62l-18-49H214l-18 49zm96-101h44l-22-62z"
+        fill="url(#mark)"/>
+
+  <rect x="383"
+        y="145"
+        width="54"
+        height="220"
+        rx="27"
+        fill="url(#bg)"/>
+</svg>
