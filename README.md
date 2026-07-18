@@ -11,6 +11,9 @@
 > **Run the executable showcase:** [Open in Google Colab](https://colab.research.google.com/github/FaramarzKowsari/ai-api-playbook/blob/main/notebooks/00_quickstart_colab.ipynb) · [View saved outputs on GitHub](notebooks/00_quickstart_colab.ipynb)
 
 ---
+## Official Project Website
+
+https://faramarzkowsari.github.io/ai-api-playbook/
 
 ## Project overview
 
