@@ -40,6 +40,10 @@ The default configuration runs in deterministic mock mode and does not require p
 | Version 1.0.0 release | [GitHub Release](https://github.com/FaramarzKowsari/ai-api-playbook/releases/tag/v1.0.0) |
 | Permanent scientific record | [Zenodo DOI](https://doi.org/10.5281/zenodo.21419466) |
 | Machine-readable citation | [CITATION.cff](CITATION.cff) |
+| Complete book PDF | [Read or download](book/ai-apis-in-practice-faramarz-kowsari-2026.pdf) |
+| Book record and DOI | [Zenodo Book Record](https://doi.org/10.5281/zenodo.21431944) |
+| Google Books edition | [View on Google Books](https://play.google.com/store/books/details?id=nx_2EQAAQBAJ) |
+| Companion software DOI | [Zenodo Software Record](https://doi.org/10.5281/zenodo.21419466) |
 
 ## What makes this repository different
 
