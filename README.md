@@ -308,9 +308,42 @@ Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff
 
 ## Companion visual book
 
-A separate infographic book is currently in production. The unpublished prompt manuscript and the future visual book are not included in this repository.
+## Companion Visual Book
 
-When completed, the final book will be published separately as a book record with its own bibliographic metadata and DOI. Its official link will then be added to this section.
+<p align="center">
+  <a href="book/ai-apis-in-practice-faramarz-kowsari-2026.pdf">
+    <img
+      src="book/ai-apis-in-practice-cover.jpg"
+      alt="AI APIs in Practice by Faramarz Kowsari"
+      width="360"
+    >
+  </a>
+</p>
+
+### AI APIs in Practice
+
+**A Visual Engineering Guide to Multimodal AI, Agents, RAG, Evaluation, Governance, and Real-World Products**
+
+The complete visual book is included in this repository as the publishing and educational companion to the executable software project.
+
+The book transforms the architecture, implementation, evaluation, safety, governance, and commercial design of AI API systems into structured visual lessons. It connects each major engineering concept with runnable examples, repository paths, product considerations, and production-oriented practices.
+
+| Resource | Link |
+|---|---|
+| Complete PDF | [Read or download the book](book/ai-apis-in-practice-faramarz-kowsari-2026.pdf) |
+| Book DOI | [10.5281/zenodo.21431944](https://doi.org/10.5281/zenodo.21431944) |
+| Zenodo record | [Book archive](https://zenodo.org/records/21431944) |
+| Google Books | [Official book page](https://play.google.com/store/books/details?id=nx_2EQAAQBAJ) |
+| Companion software DOI | [10.5281/zenodo.21419466](https://doi.org/10.5281/zenodo.21419466) |
+| Source repository | [AI API Playbook](https://github.com/FaramarzKowsari/ai-api-playbook) |
+
+### Book and Software Relationship
+
+The book and software are separate but connected research objects:
+
+- The **book** provides the visual engineering framework and educational architecture.
+- The **software** provides executable examples, tests, utilities, notebooks, and product blueprints.
+- Each resource has its own DOI, citation metadata, and license.
 
 ## Author
 
