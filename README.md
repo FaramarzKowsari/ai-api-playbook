@@ -306,7 +306,6 @@ This software release is permanently archived by Zenodo.
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json).
 
-## Companion visual book
 
 ## Companion Visual Book
 
