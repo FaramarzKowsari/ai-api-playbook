@@ -2,11 +2,12 @@
 
 **A Visual AI API Playbook for Multimodal, Agentic, Production-Ready, and Commercial Applications**
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21419466-blue.svg)](https://doi.org/10.5281/zenodo.21419466)
-[![CI](https://github.com/FaramarzKowsari/ai-api-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/FaramarzKowsari/ai-api-playbook/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FaramarzKowsari/ai-api-playbook/blob/main/notebooks/00_quickstart_colab.ipynb)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21419466.svg)](https://doi.org/10.5281/zenodo.21419466)
+[![Book DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21431944.svg)](https://doi.org/10.5281/zenodo.21431944)
+[![Google Books](https://img.shields.io/badge/Google%20Books-View%20Book-4285F4)](https://play.google.com/store/books/details?id=nx_2EQAAQBAJ)
+[![Book PDF](https://img.shields.io/badge/Book-Complete%20PDF-red)](book/ai-apis-in-practice-faramarz-kowsari-2026.pdf)
+[![License: MIT](https://img.shields.io/badge/Software%20License-MIT-yellow.svg)](LICENSE)
+[![Book License: CC BY 4.0](https://img.shields.io/badge/Book%20License-CC%20BY%204.0-green.svg)](book/LICENSE.md)
 
 > **Run the executable showcase:** [Open in Google Colab](https://colab.research.google.com/github/FaramarzKowsari/ai-api-playbook/blob/main/notebooks/00_quickstart_colab.ipynb) · [View saved outputs on GitHub](notebooks/00_quickstart_colab.ipynb)
 
