@@ -21,11 +21,16 @@
     "Python"
   ],
   "related_identifiers": [
-    {
-      "identifier": "https://github.com/FaramarzKowsari/ai-api-playbook",
-      "relation": "isVersionOf",
-      "scheme": "url"
-    }
-  ],
+  {
+    "identifier": "https://github.com/FaramarzKowsari/ai-api-playbook",
+    "relation": "isVersionOf",
+    "scheme": "url"
+  },
+  {
+    "identifier": "https://doi.org/10.5281/zenodo.21431944",
+    "relation": "isSupplementTo",
+    "resource_type": "publication-book"
+  }
+]
   "notes": "Source repository: https://github.com/FaramarzKowsari/ai-api-playbook"
 }
