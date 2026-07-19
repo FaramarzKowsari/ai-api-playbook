@@ -1,6 +1,6 @@
 {
   "title": "AI API Playbook: Production Patterns, Provider Examples, and Commercial Blueprints",
-  "description": "A reproducible, provider-aware reference implementation for building, evaluating, securing, and commercializing AI API applications. Includes tested Python abstractions, runnable examples, project blueprints, a Colab notebook, and a 100-page infographic book production map.",
+  "description": "A reproducible, provider-aware reference implementation for building, evaluating, securing, and commercializing AI API applications. Includes tested Python abstractions, runnable examples, project blueprints, a Colab notebook, and a companion infographic book.",
   "creators": [
     {
       "name": "Kowsari, Faramarz",
@@ -21,16 +21,17 @@
     "Python"
   ],
   "related_identifiers": [
-  {
-    "identifier": "https://github.com/FaramarzKowsari/ai-api-playbook",
-    "relation": "isVersionOf",
-    "scheme": "url"
-  },
-  {
-    "identifier": "https://doi.org/10.5281/zenodo.21431944",
-    "relation": "isSupplementTo",
-    "resource_type": "publication-book"
-  }
-]
-  "notes": "Source repository: https://github.com/FaramarzKowsari/ai-api-playbook"
+    {
+      "identifier": "https://github.com/FaramarzKowsari/ai-api-playbook",
+      "relation": "isVersionOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.21431944",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-book"
+    }
+  ],
+  "notes": "Source repository: https://github.com/FaramarzKowsari/ai-api-playbook. Companion book DOI: https://doi.org/10.5281/zenodo.21431944"
 }
