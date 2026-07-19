@@ -174,6 +174,7 @@ Never place API keys directly inside source files, notebooks, browser code, scre
 | `projects/` | Commercial product blueprints and proof-of-concept pipelines |
 | `notebooks/` | Executable Colab showcase with saved outputs |
 | `docs/` | Architecture, provider matrix, book map, security, and release guidance |
+| `book/` | Complete visual book, cover, book citation metadata, and book-specific license |
 | `tests/` | Deterministic offline tests requiring no provider credentials |
 | `tools/` | Supporting documentation and manuscript-generation utilities |
 | `.github/workflows/` | Continuous-integration configuration |
