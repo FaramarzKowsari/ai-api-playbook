@@ -373,7 +373,7 @@ Constructive contributions are welcome. Before submitting a pull request:
 
 The software source code in this repository is released under the [MIT License](LICENSE).
 
-The unpublished infographic prompt manuscript and the future companion book are separate works, are not included in this repository, and are not covered by the repository’s MIT software license.
+The companion book included in the `book/` directory is a separate published work with its own DOI and Creative Commons Attribution 4.0 International License. It is not covered by the repository’s MIT software license.
 
 ---
 
